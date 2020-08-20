@@ -1,3 +1,13 @@
+Housecall Deploy Instructions
+----------
+Deploy a new version to DockerHub
+In Base directory of repo::
+
+    $ docker build -t housecall/ecs-deploy:VERSION .
+    $ docker build -t housecall/ecs-deploy:latest .
+    $ docker push housecall/ecs-deploy:VERSION
+    $ docker push housecall/ecs-deploy:latest
+
 ECS Deploy
 ----------
 
