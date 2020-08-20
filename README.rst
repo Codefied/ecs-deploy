@@ -6,7 +6,6 @@ Login to docker::
 
     $ docker login
 
-
 Deploy a new version to DockerHub
 In Base directory of repo::
 
