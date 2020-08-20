@@ -1,5 +1,12 @@
 Housecall Deploy Instructions
 ----------
+Ensure you have docker installed
+Ensure you have a dockerhub account https://hub.docker.com/ and you are added to the housecall org
+Login to docker::
+
+    $ docker login
+
+
 Deploy a new version to DockerHub
 In Base directory of repo::
 
